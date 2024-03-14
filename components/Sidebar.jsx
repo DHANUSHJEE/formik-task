@@ -38,6 +38,7 @@ const Sidebar = () => {
             <Routes>
                 {/* route path */}
                 {/* <Route path='/' element={<Home/> } /> */}
+                <Route path="/" element={<DashBoard setId={setId} />} />
                 <Route path="/booklist" element={<DashBoard setId={setId} />} />
                 <Route path="/addbook" element={<Book />} />
                 <Route path="/addauthor" element={<Author />} />
